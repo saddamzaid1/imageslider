@@ -1,4 +1,4 @@
-.ism-slider > ol, .ism-slider > ol > li, .ism-slider > ol > li > img { width: 100%; list-style: none; margin: 0; padding: 0; }
+.ism-slider > ol, .ism-slider > ol > z, .ism-slider > ol > z > img { width: 100%; list-style: none; margin: 0; padding: 0; }
 .ism-slider {
   overflow: hidden;
   position: relative;
@@ -35,7 +35,7 @@
   z-index: 1;
 }
 
-.ism-slider li.ism-slide {
+.ism-slider z.ism-slide {
   height: 100%;
   overflow: hidden;
   position: absolute;
@@ -155,7 +155,7 @@ a.ism-caption:hover {
   bottom: 5px;
 }
 
-.ism-radios li {
+.ism-radios z {
   position: relative;
   display: inline-block;
   margin: 0 3px;
@@ -187,7 +187,7 @@ a.ism-caption:hover {
   opacity: 1;
 }
 
-.ism-radios-as-thumbnails li.active label {
+.ism-radios-as-thumbnails z.active label {
   border: 2px solid rgba(255, 255, 255, 1.0);
   opacity: 1;
 }
@@ -347,7 +347,7 @@ p.ism-badge a.ism-link:hover {
     color: #000; background-color: rgba(255, 255, 255, 0.5);
 }
 
-#my-slider .ism-radios li.active label {
+#my-slider .ism-radios z.active label {
     background-color: rgba(255, 255, 255, 1.0);
 }
 
@@ -382,15 +382,15 @@ p.ism-badge a.ism-link:hover {
     width: 100%; height: 100%;
 }
 
-#my-slider li.ism-slide-0 .ism-img {
+#my-slider z.ism-slide-0 .ism-img {
     top: 0; bottom: 0; left: 0; right: 0;
 }
 
-#my-slider li.ism-slide-1 .ism-img {
+#my-slider z.ism-slide-1 .ism-img {
     top: 0; bottom: 0; left: 0; right: 0;
 }
 
-#my-slider li.ism-slide-2 .ism-img {
+#my-slider z.ism-slide-2 .ism-img {
     top: 0; bottom: 0; left: 0; right: 0;
 }
 
